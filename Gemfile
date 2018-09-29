@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'database_cleaner' 
+  gem 'factory_bot', '~> 4.11', '>= 4.11.1'
 end
 
 group :development do
@@ -63,3 +64,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'jquery-rails'
+
