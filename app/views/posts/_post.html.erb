@@ -1,14 +1,14 @@
 <tr>
   <td>
-    <%= @posts.id %>
+    <%= post.id %>
   </td>
    <td>
-    <%= @posts.date %>
+    <%= post.date %>
   </td>
    <td>
-    <%= @posts.user.last_name %>
+    <%= post.user.full_name %>
   </td>
    <td>
-    <%= truncate(@posts.rationale) %>
+    <%= truncate(post.rationale) %>
   </td>
 </tr>
